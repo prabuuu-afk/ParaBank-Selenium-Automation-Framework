@@ -18,16 +18,17 @@ try:
     driver.get(BASE_URL)
 
     # Deliberately leave First Name BLANK, fill everything else
-    driver.find_element(By.ID, "customer.lastName").send_keys("Kumar")
+    driver.find_element(By.ID, "customer.firstName").send_keys("Naveen")
+    driver.find_element(By.ID, "customer.lastName").send_keys("prabu")
     driver.find_element(By.ID, "customer.address.street").send_keys("12 Main Street")
     driver.find_element(By.ID, "customer.address.city").send_keys("Coimbatore")
     driver.find_element(By.ID, "customer.address.state").send_keys("Tamil Nadu")
     driver.find_element(By.ID, "customer.address.zipCode").send_keys("641001")
     driver.find_element(By.ID, "customer.phoneNumber").send_keys("9876543210")
     driver.find_element(By.ID, "customer.ssn").send_keys("123456789")
-    driver.find_element(By.ID, "customer.username").send_keys("blank_fname_test")
-    driver.find_element(By.ID, "customer.password").send_keys("Test@1234")
-    driver.find_element(By.ID, "repeatedPassword").send_keys("Test@1234")
+    driver.find_element(By.ID, "customer.username").send_keys("Naveenprabu")
+    driver.find_element(By.ID, "customer.password").send_keys("naveen")
+    driver.find_element(By.ID, "repeatedPassword").send_keys("naveen")
 
     register_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@value='Register']")))
     register_button.click()

@@ -7,8 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # ---------- EDIT THESE VALUES TO TEST DIFFERENT SCENARIOS ----------
-USERNAME = "user"
-PASSWORD = "user123"
+USERNAME = "Naveenprabu"
+PASSWORD = "naveen"
 # ---------------------------------------------------------------------
 
 BASE_URL = "https://parabank.parasoft.com/parabank/index.htm"

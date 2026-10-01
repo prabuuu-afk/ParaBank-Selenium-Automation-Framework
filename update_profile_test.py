@@ -69,5 +69,5 @@ except Exception as e:
     print(f"TEST ERROR: {e}")
 
 finally:
-    time.sleep(12)
+    time.sleep(2)
     driver.quit()
