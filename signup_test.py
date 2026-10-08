@@ -26,7 +26,7 @@ try:
     driver.find_element(By.ID, "customer.address.zipCode").send_keys("641001")
     driver.find_element(By.ID, "customer.phoneNumber").send_keys("9876543210")
     driver.find_element(By.ID, "customer.ssn").send_keys("123456789")
-    driver.find_element(By.ID, "customer.username").send_keys("Naveenprabu")
+    driver.find_element(By.ID, "customer.username").send_keys("Naveen")
     driver.find_element(By.ID, "customer.password").send_keys("naveen")
     driver.find_element(By.ID, "repeatedPassword").send_keys("naveen")
 

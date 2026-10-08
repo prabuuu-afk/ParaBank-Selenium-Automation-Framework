@@ -8,7 +8,7 @@ import time
 
 # ---------- EDIT THESE VALUES TO TEST DIFFERENT SCENARIOS ----------
 USERNAME = "Naveen"
-PASSWORD = "naveen123#"
+PASSWORD = "naveen"
 # ---------------------------------------------------------------------
 
 BASE_URL = "https://parabank.parasoft.com/parabank/index.htm"

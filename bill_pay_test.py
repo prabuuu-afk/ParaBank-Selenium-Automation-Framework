@@ -8,7 +8,7 @@ import time
 
 # ---------- EDIT THESE VALUES TO TEST DIFFERENT SCENARIOS ----------
 USERNAME = "Naveen"
-PASSWORD = "naveen123#"
+PASSWORD = "naveen"
 PAYEE_NAME = "Electric Company"
 PAYEE_ADDRESS = "123 Utility Road"
 PAYEE_CITY = "Coimbatore"

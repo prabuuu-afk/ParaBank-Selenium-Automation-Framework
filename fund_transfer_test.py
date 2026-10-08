@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 USERNAME = "Naveen"
-PASSWORD = "naveen123#" 
+PASSWORD = "naveen" 
 TRANSFER_AMOUNT = "100"
 
 BASE_URL = "https://parabank.parasoft.com/parabank/index.htm"

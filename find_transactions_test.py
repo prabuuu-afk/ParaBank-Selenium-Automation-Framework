@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # ---------- EDIT THESE VALUES TO TEST DIFFERENT SCENARIOS ----------
-USERNAME = "Naveenprabu"
+USERNAME = "Naveen"
 PASSWORD = "naveen"
 TRANSFER_AMOUNT = "77"   # use a distinctive amount so we know it's THIS test's transaction
 # ---------------------------------------------------------------------

@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # ---------- EDIT THESE VALUES TO TEST DIFFERENT SCENARIOS ----------
-USERNAME = "Naveenprabu"
+USERNAME = "Naveen"
 PASSWORD = "naveen"
 # ---------------------------------------------------------------------
 
