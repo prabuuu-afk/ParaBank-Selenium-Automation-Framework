@@ -17,7 +17,7 @@ wait = WebDriverWait(driver, 10)
 try:
     driver.get(BASE_URL)
 
-    # Deliberately leave First Name BLANK, fill everything else
+    # User datas
     driver.find_element(By.ID, "customer.firstName").send_keys("Naveen")
     driver.find_element(By.ID, "customer.lastName").send_keys("prabu")
     driver.find_element(By.ID, "customer.address.street").send_keys("12 Main Street")
